@@ -1,8 +1,9 @@
-let url = "https://node.masplatform.net/api/v1";
+let url = "http://51.20.184.39:1865";
+// let url = "https://node.masplatform.net/api/v1";
 
-if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
-  url = "http://localhost:1865/api/v1";
-}
+// if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
+//   url = "http://localhost:1865/api/v1";
+// }
 
 const Apiconfigs = {
   //admin
